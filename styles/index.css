@@ -1,0 +1,45 @@
+.formStyle {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.formStyle legend {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.fildSetGender {
+  margin-top: 30px;
+  /* border: 2px solid #06c; */
+  margin-right: 30px;
+}
+
+.fildSetGender legend {
+  position: relative;
+  margin-left: 1em;
+  background-color: white;
+}
+
+.fildSetGender div {
+  margin-left: 40px;
+}
+
+.fildSetHobbies {
+  margin-top: 30px;
+  /* border: 2px solid #06c; */
+  margin-right: 30px;
+}
+
+.fildSetHobbies legend {
+  position: relative;
+  margin-left: 1em;
+  background-color: white;
+}
+
+.fildSetHobbies div {
+  margin-left: 40px;
+}
+
+.fildSetOthers {
+  margin-top: 30px;
+}

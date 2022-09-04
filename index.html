@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Forms Bootstrap</title>
+      <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+      <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+      <form class="formStyle" action="">
+            <fieldset>
+                  <legend>Forms with Bootstrap - PWEB</legend>
+                  <div class="row mb-2">
+                        <label for="inputFullName" class="col-sm-2 col-form-label">Full name</label>
+                        <div class="col-sm-7">
+                              <input type="text" class="form-control" id="inputFullName">
+                        </div>
+                  </div>
+                  <div class="row mb-2">
+                        <label for="inputBiography" class="col-sm-2 col-form-label">Biography</label>
+                        <div class="col-sm-7">
+                              <textarea class="form-control" id="inputBiography" rows="3"></textarea>
+                        </div>
+                  </div>
+                  <div class="row mb-2">
+                        <label for="inputPlanet" class="col-sm-2 col-form-label">Planet</label>
+                        <div class="col-sm-7">
+                              <input type="text" class="form-control" id="inputPlanet" placeholder="Earth">
+                        </div>
+                  </div>
+                  <fieldset disabled="disabled">
+                        <div class="row mb-2">
+                              <label for="inputCoupon" class="col-sm-2 col-form-label">Coupon</label>
+                              <div class="col-sm-7">
+                                    <input type="text" class="form-control" id="inputCoupon"
+                                          placeholder="Not Available">
+                              </div>
+                        </div>
+                  </fieldset>
+                  <div class="row mb-2">
+                        <label for="formFile" class="col-sm-2 col-form-label">Image</label>
+                        <div class="col-sm-7">
+                              <input class="form-control" type="file" id="formFile">
+                        </div>
+                  </div>
+
+                  <fieldset class="fildSetGender">
+                        <legend>Gender</legend>
+
+                        <div class="form-check" id="div1">
+                              <input class="form-check-input" type="radio" name="Gender" id="gender" value="option1"
+                                    checked>
+                              <label class="form-check-label" for="gender1">
+                                    Male
+                              </label>
+                        </div>
+                        <div class="form-check" id="div2">
+                              <input class="form-check-input" type="radio" name="Gender" id="gender" value="option2"
+                                    checked>
+                              <label class="form-check-label" for="gender2">
+                                    Female
+                              </label>
+                        </div>
+                  </fieldset>
+
+                  <fieldset class="fildSetHobbies">
+                        <legend>Hobbies</legend>
+                        <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                    Hiking
+                              </label>
+                        </div>
+                        <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                    Dancing
+                              </label>
+                        </div>
+                        <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              <label class="form-check-label" for="defaultCheck1">
+                                    Gardening
+                              </label>
+                        </div>
+                  </fieldset>
+
+                  <fieldset class="fildSetOthers">
+                        <div class="row mb-2">
+                              <label for="inputAgeGroup" class="col-sm-2 col-form-label">Age Group</label>
+                              <div class="col-sm-7">
+                                    <select class="form-select" aria-label="Default select example">
+                                          <option selected>Open this select menu</option>
+                                          <option value="1">0 to 9 Years</option>
+                                          <option value="2">10 to 15 Years</option>
+                                          <option value="3">16 to 22 Years</option>
+                                    </select>
+                              </div>
+                        </div>
+                        <div class="row mb-2">
+                              <label for="inputIdol" class="col-sm-2 col-form-label">Idol</label>
+                              <div class="col-sm-7">
+                                    <select class="form-select" multiple aria-label="Default select example">
+                                          <option value="1">Michael Jackson</option>
+                                          <option value="2">Madona</option>
+                                          <option value="3">Roberto Carlos</option>
+                                    </select>
+                              </div>
+                        </div>
+                        <div class="row mb-2">
+                              <label for="inputInterests" class="col-sm-2 col-form-label">Interests</label>
+                              <div class="col-sm-7">
+                                    <select class="form-select" multiple aria-label="Default select example">
+                                          <option value="1">Readings</option>
+                                          <option value="2">Cinemas</option>
+                                          <option value="3">Theaters</option>
+                                          <option value="3">Operas</option>
+                                    </select>
+                              </div>
+                        </div>
+                        <div class="row mb-2">
+                              <label for="inputFavouriteCar" class="col-sm-2 col-form-label">Favourite Car</label>
+                              <div class="col-sm-7">
+                                    <select class="form-select" aria-label="Default select example">
+                                          <option selected>Open this select menu</option>
+                                          <option value="1">Volvo</option>
+                                          <option value="2">BMW</option>
+                                          <option value="3">Ferrari</option>
+                                    </select>
+                              </div>
+                        </div>
+                        <div class="row mb-2">
+                              <label for="inputFavouriteDish" class="col-sm-2 col-form-label">Favourite Dish</label>
+                              <div class="col-sm-7">
+                                    <select class="form-select" aria-label="Default select example">
+                                          <option selected>Open this select menu</option>
+                                          <optgroup label="Vegetarian">
+                                                <option value="1">Green Salad</option>
+                                                <option value="2">Penne Salad</option>
+                                                <option value="3">braised green soybeans</option>
+                                          </optgroup>
+                                          <optgroup label="Italian foods">
+                                                <option value="1">Pizza</option>
+                                                <option value="2">Ravioli</option>
+                                                <option value="3">Risotto</option>
+                                          </optgroup>
+                                    </select>
+                              </div>
+                        </div>
+                        <div class="row mb-2">
+                              <label for="inputPublicTransports" class="col-sm-2 col-form-label">Public
+                                    Transports</label>
+                              <div class="col-sm-7">
+                                    <select class="form-select" multiple aria-label="Default select example">
+                                          <optgroup label="Ground">
+                                                <option value="1">Train</option>
+                                                <option value="2">Bus</option>
+                                          </optgroup>
+                                          <optgroup label="Water">
+                                                <option value="1">Boat</option>
+                                                <option value="2">Submarine</option>
+                                                <option value="3">Speedboat</option>
+                                          </optgroup>
+                                          <optgroup label="Flights">
+                                                <option value="1">Airplane</option>
+                                                <option value="2">Private jet</option>
+                                                <option value="3">Air fighter</option>
+                                          </optgroup>
+                                    </select>
+                              </div>
+                        </div>
+                        <div class="col-12">
+                              <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                          I accept the terms and conditions
+                                    </label>
+                              </div>
+                        </div>
+                        <div class="col-12" style="margin-top: 10px;">
+                              <button type="submit" class="btn btn-primary">Register</button>
+                        </div>
+                        <div class="col-12" style="margin-top: 10px; margin-bottom: 50px">
+                              <input type="checkbox" class="btn-check" id="btn-check-2-outlined" checked
+                                    autocomplete="off">
+                              <label class="btn btn-outline-secondary" for="btn-check-2-outlined">Cancel</label><br>
+                        </div>
+                  </fieldset>
+
+            </fieldset>
+
+      </form>
+
+      <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script src="./node_modules/popper.js/dist/popper.min.js"></script>
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
